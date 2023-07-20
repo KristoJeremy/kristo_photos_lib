@@ -1,19 +1,18 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from "react-bootstrap";
 
 const LandingSection = () => {
-    return(
-        <div className='welcome-sec'>
-        <Container className='text-white d-flex justify-content-center align-items-center'>
+  return (
+    <div className="welcome-sec">
+      <Container className="text-white d-flex justify-content-center align-items-center">
         <Row>
-            <Col>
-            <div className='welcome-text'>If you can see it,</div>
-            <div className='welcome-text'>you can shoot it.</div>
-            </Col>
+          <Col>
+            <div className="welcome-text">If you can see it,</div>
+            <div className="welcome-text">you can shoot it.</div>
+          </Col>
         </Row>
-        </Container>
+      </Container>
     </div>
+  );
+};
 
-    )
-}
-
-export default LandingSection
+export default LandingSection;
